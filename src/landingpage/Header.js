@@ -3,11 +3,20 @@ import headerimage from "../images/comp.jpeg";
 
 function Header() {
   return (
-    <div className='container-fluid'>
-        <h1> Motivation student Devs</h1>
-        <img src={headerimage}/>
-        
+    <div className='container-fluid header'>
+      
+        <h1> Software Development Students Motivation</h1>
+        <div className='header-image'>
+          kk
+          {/* <div className='headerimage-container'>kkkkkk</div> */}
+           <img src={headerimage} alt=''/>
+
+        </div>
+
+
     </div>
+
+
   )
 }
 

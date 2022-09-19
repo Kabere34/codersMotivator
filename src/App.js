@@ -1,20 +1,15 @@
 import logo from "./logo.svg";
 import "./App.css";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
-import Navbar from "./Navbar";
-import Header from "./landingpage/Header";
-import Reviews from "./landingpage/Reviews";
-import About from "./landingpage/About";
-import Footer from "./landingpage/Footer";
-import Content from "./Content";
 import Dashboard from "./admin/Dashboard";
-import Chart from "./admin/DashboardChart";
 import Register from "./register/Register";
 import NewPost from "./NewPost/NewPost";
-import Category from "./NewPost/Testing";
+import Category from "./category/Category";
 import Profile from "./Profile/Profile";
 import LoginRegister from "./Login/Login";
 import Main from "./landingpage/Main";
+import Singlepost from "./singlePost/Singlepost";
+
 
 function App() {
   return (
@@ -24,7 +19,7 @@ function App() {
           <Route index element={<Main/>}></Route>
           <Route path="register" element={<Register/>}></Route>
           <Route path="login" element={<LoginRegister/>}></Route>
-          <Route path="single-view" element={""}></Route>
+          <Route path="single-view" element={<Singlepost/>}></Route>
           <Route path="admin-dashboard" element={<Dashboard/>}></Route>
           <Route path="new-post" element={<NewPost/>}></Route>
 

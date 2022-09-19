@@ -12,7 +12,7 @@ function Main() {
        <Header/>
        <About/>
        <Reviews/>
-       <Footer/> 
+       <Footer/>
 
     </div>
   )

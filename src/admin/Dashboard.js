@@ -11,7 +11,7 @@ function Dashboard() {
           <div className="col-md-2" style={{ background: "blue" }}>
             <p><button>Add User</button></p>
             <p><button>Add Category</button></p>
-           
+
           </div>
           <div className="col-md-10" style={{ background: "" }}>
             <div className="container">
@@ -19,7 +19,7 @@ function Dashboard() {
                 <div style={{ display: "flex" }}>
                   <img
                     style={{ width: "3rem", margin: "0.5rem" }}
-                    src={homeIcon}
+                    src={homeIcon} alt=""
                   />
                   <h2 style={{ width: "3rem", margin: "0.5rem" }}>Dashboard</h2>
                 </div>
@@ -28,7 +28,7 @@ function Dashboard() {
                 <div className="dash-card-1">
                   <p>New requests: 1234</p>
                   <p>New Posts: 1234</p>
-                  
+
                 </div>
                 <div className="dash-card-2">
                 <p>No. of Staff: 23</p>
@@ -71,7 +71,7 @@ function Dashboard() {
                       <tr>
                         <th scope="row"></th>
                         <td>
-                          <img src={pic} />
+                          <img src={pic} alt=""/>
                         </td>
                         <td>Mary</td>
                         <td>098655</td>
